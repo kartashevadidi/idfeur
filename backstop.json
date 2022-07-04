@@ -1,0 +1,270 @@
+{
+  "id": "backstop_default",
+  "viewports": [
+    {
+      "label": "phone",
+      "width": 320,
+      "height": 480
+    },
+    {
+      "label": "tablet",
+      "width": 1024,
+      "height": 768
+    }
+  ],
+  "onBeforeScript": "puppet/onBefore.js",
+  "onReadyScript": "puppet/onReady.js",
+  "scenarios": [
+    {
+      "label": "Homepage_RU",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/",
+      "delay": 4000
+    },
+    {
+      "label": "Homepage_EN",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/en/",
+      "delay": 4000
+    },
+    {
+      "label": "Homepage_KZ",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/en/",
+      "delay": 4000
+    },
+    {
+      "label": "investors_RU",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/investors/",
+      "delay": 4000
+    },
+    {
+      "label": "investors_EN",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/en/investors-en/",
+      "delay": 4000
+    },
+    {
+      "label": "investors_KZ",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/kz/investors-kz/",
+      "delay": 4000
+    },
+    {
+      "label": "products_RU",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/products/",
+      "delay": 4000
+    },
+    {
+      "label": "products_EN",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/en/products-en/",
+      "delay": 4000
+    },
+    {
+      "label": "products_KZ",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/kz/products-kz/",
+      "delay": 4000
+    },
+    {
+      "label": "growth_RU",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/growth/",
+      "delay": 4000
+    },
+    {
+      "label": "growth_EN",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/en/growth-en/",
+      "delay": 4000
+    },
+    {
+      "label": "growth_KZ",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/kz/growth-kz/",
+      "delay": 4000
+    },
+    {
+      "label": "products-moneyman_RU",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/products/moneyman/",
+      "delay": 4000
+    },
+    {
+      "label": "products-moneyman_EN",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/en/products-en/moneyman/",
+      "delay": 4000
+    },
+    {
+      "label": "products-moneyman_KZ",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/kz/products-kz/moneyman/",
+      "delay": 4000
+    },
+    {
+      "label": "products-idcollect_RU",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/products/id-collect/",
+      "delay": 4000
+    },
+    {
+      "label": "products-idcollect_EN",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/en/products-en/id-collect/",
+      "delay": 4000
+    },
+    {
+      "label": "products-idcollect_KZ",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/kz/products-kz/id-collect/",
+      "delay": 4000
+    },
+    {
+      "label": "products-solva_RU",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/products/solva/",
+      "delay": 4000
+    },
+    {
+      "label": "products-solva_EN",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/en/products-en/solva/",
+      "delay": 4000
+    },
+    {
+      "label": "products-solva_KZ",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/kz/products-kz/solva/",
+      "delay": 4000
+    },
+    {
+      "label": "products-moneymanKz_RU",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/products/moneyman-kz/",
+      "delay": 4000
+    },
+    {
+      "label": "products-moneymanKz_EN",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/en/products-en/moneyman-kz-en/",
+      "delay": 4000
+    },
+    {
+      "label": "products-moneymanKz_KZ",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/kz/products-kz/moneyman-kz-kz/",
+      "delay": 4000
+    },
+    {
+      "label": "products-idcollectKz_RU",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/products/id-collect-kz/",
+      "delay": 4000
+    },
+    {
+      "label": "products-idcollectKz_EN",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/en/products-en/id-collect-kz/",
+      "delay": 4000
+    },
+    {
+      "label": "products-idcollectKz_KZ",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/kz/products-kz/id-collect-kz/",
+      "delay": 4000
+    },
+    {
+      "label": "about_RU",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/about/",
+      "delay": 4000
+    },
+    {
+      "label": "about_EN",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/en/about-en/",
+      "delay": 4000
+    },
+    {
+      "label": "about_KZ",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/kz/about-kz/",
+      "delay": 4000
+    },
+    {
+      "label": "technology_RU",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/technology/",
+      "delay": 4000
+    },
+    {
+      "label": "technology_EN",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/en/technology-en/",
+      "delay": 4000
+    },
+    {
+      "label": "technology_KZ",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/kz/technology-kz/",
+      "delay": 4000
+    },
+    {
+      "label": "media_RU",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/media/",
+      "delay": 4000
+    },
+    {
+      "label": "media_EN",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/en/media-en/",
+      "delay": 4000
+    },
+    {
+      "label": "media_KZ",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/kz/media-kz/",
+      "delay": 4000
+    },
+    {
+      "label": "career_RU",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/career/",
+      "delay": 4000
+    },
+    {
+      "label": "career_EN",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/en/career-en/",
+      "delay": 4000
+    },
+    {
+      "label": "career_KZ",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/kz/career-kz/",
+      "delay": 4000
+    },
+    {
+      "label": "contacts_RU",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/contacts/",
+      "delay": 4000
+    },
+    {
+      "label": "contacts_EN",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/en/contacts-en/",
+      "delay": 4000
+    },
+    {
+      "label": "contacts_KZ",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/kz/contacts-kz/",
+      "delay": 4000
+    },
+    {
+      "label": "investorsBonds_RU",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/investors/bonds/",
+      "delay": 4000
+    },
+    {
+      "label": "investorsBonds_EN",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/en/investors-en/bonds-en/",
+      "delay": 4000
+    },
+    {
+      "label": "investorsBonds_KZ",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-eurasia-ru-master.moneyman.ru/kz/investors-kz/bonds-kz/",
+      "delay": 4000
+    }
+
+
+
+
+
+  ],
+  "paths": {
+    "bitmaps_reference": "backstop_data/bitmaps_reference",
+    "bitmaps_test": "backstop_data/bitmaps_test",
+    "engine_scripts": "backstop_data/engine_scripts",
+    "html_report": "backstop_data/html_report",
+    "ci_report": "backstop_data/ci_report",
+    "misMatchThreshold": 0.1
+  },
+  "report": [
+    "browser"
+  ],
+  "engine": "puppeteer",
+  "engineOptions": {
+    "args": [
+      "--no-sandbox"
+    ]
+  },
+  "asyncCaptureLimit": 5,
+  "asyncCompareLimit": 50,
+  "debug": false,
+  "debugWindow": false
+}
